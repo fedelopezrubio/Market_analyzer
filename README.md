@@ -47,19 +47,29 @@ Cuando la confianza del análisis supera un umbral definido, el sistema envía u
 
 
 market_analyzer/
-├── app.py              # Dashboard web (punto de entrada)
+- app.py              # Dashboard web (punto de entrada)
 
-├── data_fetcher.py     # Descarga de precios y noticias
-├── technical.py        # Indicadores técnicos y señales
-├── predictor.py        # Modelo ML y veredicto final
-├── sentiment.py        # Análisis de sentimiento de noticias
-├── macro.py            # Indicadores macroeconómicos
-├── geopolitics.py      # Análisis geopolítico por categoría
-├── watchlist.py        # Lista de acciones y escaneo de oportunidades
-├── alerts.py           # Scheduler de alertas automáticas
-├── paper_trading.py    # Registro de decisiones simuladas
-├── email_sender.py     # Envío de alertas por Gmail
-└── requirements.txt    # Dependencias
+- data_fetcher.py     # Descarga de precios y noticias
+
+- technical.py        # Indicadores técnicos y señales
+  
+- predictor.py        # Modelo ML y veredicto final
+ 
+- sentiment.py        # Análisis de sentimiento de noticias
+  
+- macro.py            # Indicadores macroeconómicos
+  
+- geopolitics.py      # Análisis geopolítico por categoría
+  
+- watchlist.py        # Lista de acciones y escaneo de oportunidades
+  
+- alerts.py           # Scheduler de alertas automáticas
+  
+- paper_trading.py    # Registro de decisiones simuladas
+  
+- email_sender.py     # Envío de alertas por Gmail
+  
+- requirements.txt    # Dependencias
 
 ---
 
