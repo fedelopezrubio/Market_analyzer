@@ -1,8 +1,8 @@
-# 📈 Market Analyzer
+# Market Analyzer
 
 Simulador de análisis bursátil que combina análisis técnico, machine learning y fuentes de información externa para generar sugerencias de inversión sobre acciones argentinas y globales.
 
-> ⚠️ **Aviso:** Este proyecto es un simulador educativo. No constituye asesoramiento financiero ni ejecuta órdenes reales de compra/venta.
+Aviso: Este proyecto es un simulador educativo. No constituye asesoramiento financiero ni ejecuta órdenes reales de compra/venta.
 
 ---
 
