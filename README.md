@@ -2,8 +2,6 @@
 
 Simulador de análisis bursátil que combina análisis técnico, machine learning y fuentes de información externa para generar sugerencias de inversión sobre acciones argentinas y globales.
 
-Aviso: Este proyecto es un simulador educativo. No constituye asesoramiento financiero ni ejecuta órdenes reales de compra/venta.
-
 ---
 
 ## ¿Qué hace?
@@ -65,24 +63,6 @@ market_analyzer/
 
 ---
 
-## Instalación
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/fedelopezrubio/Market_analyzer.git
-cd Market_analyzer
-
-# 2. Instalar dependencias
-pip install -r requirements.txt
-
-# 3. Configurar email (opcional, para recibir alertas)
-# Editá email_sender.py con tu cuenta Gmail y tu contraseña de aplicación
-# Instrucciones: https://myaccount.google.com/apppasswords
-
-# 4. Ejecutar
-python app.py
-```
-
 Abrí el navegador en `http://127.0.0.1:8050`
 
 ---
@@ -113,5 +93,5 @@ El sistema emite **COMPRAR** si el puntaje supera +0.2, **VENDER** si cae por de
 
 ## Autor
 
-Fede López Rubio — Buenos Aires, Argentina
-Estudiante de Licenciatura en Ciencia de Datos e Inteligencia Artificial (UADE)
+Federico López Rubio — Buenos Aires, Argentina
+Estudiante de Licenciatura en Inteligencia Artificial y Ciencia de Datos (UADE)
