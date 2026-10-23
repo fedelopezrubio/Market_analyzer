@@ -45,7 +45,7 @@ Cuando la confianza del análisis supera un umbral definido, el sistema envía u
 
 ## Estructura del proyecto
 
-```
+
 market_analyzer/
 ├── app.py              # Dashboard web (punto de entrada)
 ├── data_fetcher.py     # Descarga de precios y noticias
@@ -59,7 +59,6 @@ market_analyzer/
 ├── paper_trading.py    # Registro de decisiones simuladas
 ├── email_sender.py     # Envío de alertas por Gmail
 └── requirements.txt    # Dependencias
-```
 
 ---
 
