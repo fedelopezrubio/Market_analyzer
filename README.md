@@ -48,6 +48,7 @@ Cuando la confianza del análisis supera un umbral definido, el sistema envía u
 
 market_analyzer/
 ├── app.py              # Dashboard web (punto de entrada)
+
 ├── data_fetcher.py     # Descarga de precios y noticias
 ├── technical.py        # Indicadores técnicos y señales
 ├── predictor.py        # Modelo ML y veredicto final
