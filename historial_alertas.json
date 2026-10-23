@@ -1,0 +1,179 @@
+{
+  "alertas": [
+    {
+      "ticker": "MA",
+      "nombre": "Mastercard",
+      "sector": "Financials",
+      "veredicto": "VENDER",
+      "emoji": "🔴",
+      "puntaje": -0.49,
+      "confianza": "Media",
+      "precio_actual": 561.7,
+      "cambio_7d": -1.16,
+      "moneda": "USD",
+      "es_argentina": false,
+      "prob_subida": 0.38,
+      "causa_principal": "MACD < Señal → Tendencia bajista (VENTA)",
+      "señales_tecnicas": {
+        "RSI": {
+          "valor": 41.03,
+          "señal": 0,
+          "descripcion": "RSI=41.0 → Zona neutral"
+        },
+        "MACD": {
+          "valor": -4.1265,
+          "señal": -1,
+          "descripcion": "MACD < Señal → Tendencia bajista (VENTA)"
+        },
+        "Bollinger": {
+          "valor": 0.411,
+          "señal": 0,
+          "descripcion": "Precio dentro de las bandas (NEUTRAL)"
+        },
+        "SMA_50": {
+          "valor": 571.14,
+          "señal": -1,
+          "descripcion": "Precio < SMA50 ($571.14) → Tendencia bajista"
+        },
+        "Cruce_MA": {
+          "valor": -6.95,
+          "señal": -1,
+          "descripcion": "SMA20 < SMA50 → Cruce de la Muerte (VENTA)"
+        }
+      },
+      "timestamp": "05/10/2026 11:12:15",
+      "id": 1,
+      "email_enviado": false,
+      "decision_usuario": "COMPRA",
+      "precio_cierre": null,
+      "resultado_usd": null,
+      "resultado_pct": null,
+      "monto_simulado": 1000.0
+    },
+    {
+      "ticker": "WMT",
+      "nombre": "Walmart",
+      "sector": "Consumer Staples",
+      "veredicto": "VENDER",
+      "emoji": "🔴",
+      "puntaje": -0.49,
+      "confianza": "Media",
+      "precio_actual": 104.88,
+      "cambio_7d": -3.55,
+      "moneda": "USD",
+      "es_argentina": false,
+      "prob_subida": 0.364,
+      "causa_principal": "MACD < Señal → Tendencia bajista (VENTA)",
+      "señales_tecnicas": {
+        "RSI": {
+          "valor": 39.29,
+          "señal": 0,
+          "descripcion": "RSI=39.3 → Zona neutral"
+        },
+        "MACD": {
+          "valor": -0.8884,
+          "señal": -1,
+          "descripcion": "MACD < Señal → Tendencia bajista (VENTA)"
+        },
+        "Bollinger": {
+          "valor": 0.218,
+          "señal": 0,
+          "descripcion": "Precio dentro de las bandas (NEUTRAL)"
+        },
+        "SMA_50": {
+          "valor": 108.66,
+          "señal": -1,
+          "descripcion": "Precio < SMA50 ($108.66) → Tendencia bajista"
+        },
+        "Cruce_MA": {
+          "valor": -1.68,
+          "señal": -1,
+          "descripcion": "SMA20 < SMA50 → Cruce de la Muerte (VENTA)"
+        }
+      },
+      "timestamp": "05/10/2026 15:23:47",
+      "id": 2,
+      "email_enviado": false,
+      "decision_usuario": null,
+      "precio_cierre": null,
+      "resultado_usd": null,
+      "resultado_pct": null
+    },
+    {
+      "ticker": "MA",
+      "nombre": "Mastercard",
+      "sector": "Financials",
+      "veredicto": "VENDER",
+      "emoji": "🔴",
+      "puntaje": -0.49,
+      "confianza": "Media",
+      "precio_actual": 564.48,
+      "cambio_7d": -0.67,
+      "moneda": "USD",
+      "es_argentina": false,
+      "prob_subida": 0.38,
+      "causa_principal": "MACD < Señal → Tendencia bajista (VENTA)",
+      "señales_tecnicas": {
+        "RSI": {
+          "valor": 43.47,
+          "señal": 0,
+          "descripcion": "RSI=43.5 → Zona neutral"
+        },
+        "MACD": {
+          "valor": -3.9044,
+          "señal": -1,
+          "descripcion": "MACD < Señal → Tendencia bajista (VENTA)"
+        },
+        "Bollinger": {
+          "valor": 0.505,
+          "señal": 0,
+          "descripcion": "Precio dentro de las bandas (NEUTRAL)"
+        },
+        "SMA_50": {
+          "valor": 571.2,
+          "señal": -1,
+          "descripcion": "Precio < SMA50 ($571.20) → Tendencia bajista"
+        },
+        "Cruce_MA": {
+          "valor": -6.87,
+          "señal": -1,
+          "descripcion": "SMA20 < SMA50 → Cruce de la Muerte (VENTA)"
+        }
+      },
+      "timestamp": "05/10/2026 15:24:12",
+      "id": 3,
+      "email_enviado": false,
+      "decision_usuario": null,
+      "precio_cierre": null,
+      "resultado_usd": null,
+      "resultado_pct": null
+    }
+  ],
+  "decisiones": [
+    {
+      "tipo": "COMPRA",
+      "alerta_id": 1,
+      "ticker": "MA",
+      "precio": 561.7,
+      "cantidad": 1.7803097739006586,
+      "monto": 1000.0,
+      "timestamp": "05/10/2026 11:18:16"
+    },
+    {
+      "tipo": "VENTA",
+      "ticker": "MA",
+      "precio_entrada": 561.7,
+      "precio_venta": 561.7,
+      "cantidad": 1.7803097739006586,
+      "monto_original": 1000.0,
+      "monto_final": 1000.0,
+      "resultado_usd": 0.0,
+      "resultado_pct": 0.0,
+      "timestamp": "05/10/2026 11:20:46"
+    }
+  ],
+  "capital": 10000.0,
+  "posiciones": {},
+  "total_alertas": 3,
+  "alertas_enviadas": 0
+}
